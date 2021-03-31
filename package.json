@@ -1,0 +1,30 @@
+{
+  "name": "react-input-masked",
+  "version": "1.0.0",
+  "description": "Componente React q formata um input e limpa o retorno",
+  "main": "index.js",
+  "repository": "https://github.com/felipAlves/react-input-masked.git",
+  "author": "Felipe Garcia Alves <47622464+felipAlves@users.noreply.github.com>",
+  "license": "MIT",
+  "private": "false",
+  "scripts": {
+    "start": "webpack serve --hot --port=3333"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react-input-mask": "^2.0.4"
+  }
+}

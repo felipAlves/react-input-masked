@@ -1,0 +1,1 @@
+export const removeStrings = (string) => string.replace(/[^0-9]/g, '')
