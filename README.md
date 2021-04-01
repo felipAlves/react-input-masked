@@ -4,7 +4,7 @@ The react-input-mask is a react component that returns an input-mask with the sa
 
 ### Getting Started
 
-1. First. You need to install it, just like. You would do width most any NPM packages:
+1. First. You need to install it, just like. You would do with most any NPM packages:
 
 ```
 npm i --save react-input-masked
@@ -32,6 +32,6 @@ import MaskedInput from 'react-input-masked'
 const AnyComponent = () => {
     const [cpf, setCpf] = useState('')
 
-    return <MaskedInput type="cpf" onChange={event => setState(event.target.value)} />
+    return <MaskedInput type="cpf" onChange={event => setCpf(event.target.value)} />
 }
 ```
