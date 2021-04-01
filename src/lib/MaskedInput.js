@@ -18,14 +18,16 @@ const MaskedInput = ({onChange, type, ...props}) => {
     const sanitazeMasks = {
         "cpf": () => replaceSanitizedValueInInput("removeStrings"), 
         "cnpj": () => replaceSanitizedValueInInput("removeStrings"),
-        "phone": () => replaceSanitizedValueInInput("removeStrings")
+        "phone": () => replaceSanitizedValueInInput("removeStrings"),
+        "cep": () => replaceSanitizedValueInInput("removeStrings"),
     }
 
     // Objeto literal para definir qual será a máscara do input
     const typeMasks = {
         "cpf": () => "999.999.999-99",
         "cnpj": () => "99.999.999/9999-99",
-        "phone": () => "(99) 99999 9999"
+        "phone": () => "(99) 99999-9999",
+        "cep": () => "99999-999"
     }
 
     return (
