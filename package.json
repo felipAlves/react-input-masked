@@ -18,11 +18,9 @@
   "keywords": [
     "input",
     "mask",
-    "currency",
     "cpf",
     "cnpj",
-    "cep",
-    "dolar"
+    "cep"
   ],
   "devDependencies": {
     "@babel/cli": "^7.13.14",
