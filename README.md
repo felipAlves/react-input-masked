@@ -36,3 +36,11 @@ const AnyComponent = () => {
 }
 ```
 
+The "type" property of the component in version 1.0.2 can receive the following values:
+
+```
+cpf, cnpj, cep, phone
+```
+
+New masks will be added in future versions.
+
