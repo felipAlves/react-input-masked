@@ -36,7 +36,7 @@ const AnyComponent = () => {
 }
 ```
 
-The "type" property of the component in version 1.0.2 can receive the following values:
+The "type" property of the component in version 1.0.4 can receive the following values:
 
 ```
 cpf, cnpj, cep, phone

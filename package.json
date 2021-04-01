@@ -1,6 +1,6 @@
 {
   "name": "react-input-masked",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The react-input-mask is a react component that returns an input-mask with the sanitized value and formatted for use",
   "main": "dist/index.js",
   "module": "dist/index.js",
