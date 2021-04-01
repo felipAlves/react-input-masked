@@ -35,3 +35,4 @@ const AnyComponent = () => {
     return <MaskedInput type="cpf" onChange={event => setCpf(event.target.value)} />
 }
 ```
+
